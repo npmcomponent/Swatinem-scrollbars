@@ -1,16 +1,16 @@
 {
-	"name": "scrollbars",
-	"private": true,
-	"version": "0.0.1",
-  "scripts": {
-    "test": "make test-coveralls"
+  "name": "swatinem-scrollbars",
+  "description": "An efficient overflow area with custom scrollbars",
+  "version": "0.0.1",
+  "keywords": [],
+  "styles": [
+    "scrollbars.css"
+  ],
+  "dependencies": {
+    "eivindfjeldstad-scrollbar-size": "git://github.com/npmcomponent/eivindfjeldstad-scrollbar-size.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-debounce": "git://github.com/npmcomponent/component-debounce.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git"
   },
-	"devDependencies": {
-		"component": "*",
-		"component-test": "Swatinem/component-test",
-		"istanbul": "*",
-		"component-istanbul": "*",
-		"coveralls": "*",
-    "jshint": "*"
-	}
+  "license": "LGPLv3"
 }

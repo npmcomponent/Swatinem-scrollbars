@@ -1,13 +1,13 @@
 /* vim: set shiftwidth=2 tabstop=2 noexpandtab textwidth=80 wrap : */
 "use strict";
 
-var debounce = require('debounce');
-var classes = require('classes');
-var events = require('events');
+var debounce = require('component-debounce');
+var classes = require('component-classes');
+var events = require('component-events');
 
 module.exports = Scrollbars;
 
-Scrollbars.SIZE = require('scrollbar-size');
+Scrollbars.SIZE = require('eivindfjeldstad-scrollbar-size');
 Scrollbars.MIN_SIZE = 25;
 Scrollbars.CORNER = 6;
 Scrollbars.TIMEOUT = 1000;
